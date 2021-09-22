@@ -1,0 +1,232 @@
+body {
+  background-color: #030303;
+  color: #e8a348;
+  font-family: 'Bonheur Royale', cursive;
+}
+
+.title {
+  font-size: xxx-large;
+  color: #8af07f;
+}
+
+.content_1{
+  background-color: grey;
+  width:1850px;
+  height: 750px;
+  position: absolute;
+  left:30px;
+}
+
+.Nav_1{
+  background-color: #90959e;
+  position: absolute;
+  width: 120%;
+  height: 7%;
+  top:0%;
+  left: -5px;
+
+}
+
+.icon{
+  position:absolute;
+  background-color: grey;
+
+  border-radius: 40% 45% 40% 45%;
+  top:10px;
+  left: 30px;
+
+
+}
+
+.name_1{
+
+  position: absolute;
+  left: 80px;
+  top:5px;
+  color:#8af07f;
+
+}
+
+.shape_1{
+  position: absolute;
+  left: 20px;
+  top:20px;
+  -webkit-clip-path: polygon(0 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+
+
+}
+
+.title-box1 {
+  padding: 40px;
+  margin: auto;
+  text-align: center;
+  width: 75%;
+}
+
+.text-box2 {
+  padding: 40px;
+  margin: auto;
+  text-align: center;
+  width: 75%;
+}
+
+.image_box_1 {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: 375px;
+  height: 500px;
+}
+
+.drawing_box_1 {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: 375px;
+  height: 500px;
+}
+
+.overlay1 {
+  position: absolute;
+  background-color: #364958;
+  border: 1px solid #C9E4CA;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: .95;
+}
+
+.top-cycle-1 {
+  position: absolute;
+  top: 115.5px;
+  left: 211px;
+  width: 78px;
+  height: 119px;
+  background-color: grey;
+  border-radius: 80% 90% 80% 90%;
+  border: 1px solid black;
+  transform: rotate(25deg);
+
+}
+
+.top-cycle-2 {
+  position: absolute;
+  top: 115.5px;
+  left: 131px;
+  width: 78px;
+  height: 119px;
+  background-color: #979c99;
+  border-radius: 80% 90% 80% 90%;
+  transform: rotate(-35deg);
+
+}
+
+.body-1-light{
+    position: absolute;
+  top: 165.5px;
+  left: 200px;
+  width: 78px;
+  height: 219px;
+  background-color: #979c99;
+  transform: rotate(-35deg);
+}
+
+.body-2-light{
+    position: absolute;
+  top: 185.5px;
+  left: 160px;
+  width: 78px;
+  height: 219px;
+  background-color: #979c99;
+
+}
+
+.body-3-light{
+    position: absolute;
+  top: 215.5px;
+  left: 180px;
+  width: 78px;
+  height: 219px;
+  background-color: #979c99;
+transform: rotate(-5deg);
+}
+
+.body-4-light{
+    position: absolute;
+  top: 343px;
+  left: 162px;
+	width: 190px;
+	height: 100px;
+	transform: skew(20deg);
+  background-color: #979c99;
+
+}
+
+.body-2-dark{
+    position: absolute;
+  top: 165.5px;
+  left: 200px;
+  width: 78px;
+  height: 219px;
+  background-color: grey;
+  transform: rotate(10deg);
+
+}
+
+.body-3-dark{
+    position: absolute;
+  top: 195.5px;
+  left: 210px;
+  width: 78px;
+  height: 219px;
+  background-color: grey;
+  transform: rotate(5deg);
+
+}
+
+.body-4-dark{
+    position: absolute;
+  top: 195.5px;
+  left: 230px;
+  width: 78px;
+  height: 219px;
+  background-color: grey;
+  transform: rotate(-10deg);
+
+}
+
+.bot-cycle-1{
+  position: absolute;
+  top: 264px;
+  left: 45px;
+  width: 258px;
+  height: 99px;
+  background-color: #797d7b;
+  border-radius: 20% 200% 20% 200%;
+  transform: rotate(54deg);
+
+}
+
+.bot-cycle-2{
+  position: absolute;
+  top: 295.5px;
+  left: 75px;
+  width: 158px;
+  height: 59px;
+  background-color: #575958;
+  border-radius: 20% 200% 20% 200%;
+  transform: rotate(53deg);
+}
+
+.bot-triangle
+{
+      position: absolute;
+  top: 343px;
+  left: 284px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #555;
+
+}
